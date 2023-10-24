@@ -1,0 +1,61 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(54, 122, 203, 0.8) 0%, rgba(241, 61, 138, 0.8) 50%, rgba(254, 139, 103, 0.8) 100%);
+
+  form {
+    margin: 50px;
+    width: 25vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    // border: 1px solid rgba(241, 61, 138, 1);
+    border-radius: 10px;
+    background: white;
+
+    h1 {
+      color: gray;
+      margin-bottom: 10px;
+    }
+
+    label {
+      color: gray;
+      font-size: 15px;
+      // margin-bottom: 15px;
+    }
+
+    input,
+    textarea {
+      padding: 20px;
+      border: 1px solid rgb(216, 214, 214);
+      margin-bottom: 10px;
+      border: none;
+      border-bottom: 1px solid gray;
+      outline: 1px;
+    }
+
+    button {
+      border: 0.5px solid white;
+      border-radius: 10px;
+      padding: 15px 30px;
+      color: white;
+      font-weight: 500;
+      font-size: 18px;
+      background-color: rgb(46, 105, 178);
+      border: solid 1px rgb(46, 105, 178);
+      cursor: pointer;
+
+      &:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(54, 121, 203);
+      }
+    }
+
+    span {
+      color: red;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.Success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: linear-gradient(90deg, rgba(54, 122, 203, 1) 0%, rgba(241, 61, 138, 1) 50%, rgba(254, 139, 103, 1) 100%);
+}
+
+.contain{
+    width: 960px;
+    padding: 100px 0px;
+    display: flex;
+    // gap: 120px;
+    margin: 50px;
+    border: 1px solid rgb(216, 214, 214);
+    border-radius: 10px;
+    padding: 50px;
+    background: white;
+}

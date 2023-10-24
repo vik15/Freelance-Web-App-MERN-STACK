@@ -1,0 +1,75 @@
+.messages {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(54, 122, 203, 0.8) 0%, rgba(241, 61, 138, 0.8) 50%, rgba(254, 139, 103, 0.8) 100%);
+    color: #555;
+
+  .container {
+    width: 1200px;
+    padding: 50px 0px;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 50px 0px;
+    background-color: white;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: #1dbf73;
+        color: white;
+        font-weight: 500;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+
+    table {
+      width: 100%;
+
+      tr {
+        height: 70px;
+        border-radius: 10px;
+        // border-bottom: 1px solid grey;
+        th {
+          text-align: center;
+          // background-color: rgba(54, 122, 203, 0.5);
+          // border-bottom: 1px solid grey;
+        }
+        td {
+          background-color: #ffffff2e;
+          padding: 10px;
+          text-align: center;
+        // border: 1px solid grey;
+
+          // &:first-child {
+          //   font-weight: 500;
+          // }
+                  
+        }
+                                    &:nth-child(even) {
+                                      background-color: rgba(54, 122, 203, 0.5);
+                                    }
+          // &:nth-child(2),
+          // &:nth-child(3) {
+          //   color: gray;
+          // }
+
+        button {
+    background-color: rgb(46, 105, 178);
+      border: solid 1px rgb(46, 105, 178);
+          color: white;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+        }
+
+        &.active {
+          background-color: #1dbf730f;
+        }
+      }
+    }
+  }
+}

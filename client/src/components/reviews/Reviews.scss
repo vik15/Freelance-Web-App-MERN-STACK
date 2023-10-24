@@ -1,0 +1,65 @@
+.reviews {
+  margin-top: 50px;
+
+
+  .add {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    // gap: 20px;
+    // background-color: white;
+
+    h3{
+    background-color: white;
+    }
+    
+    
+    .addForm {
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      input {
+        // border-radius: 10px;
+        border: none;
+        border-bottom: 1px solid gray;
+        outline: 1px;
+        padding: 20px;
+
+      }
+
+      select {
+        border-radius: 10px;
+        width: 200px;
+        padding: 20px;
+        align-self: flex-end;
+      }
+      button {
+        align-self: flex-end;
+        width: 100px;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+        color: white;
+        background-color: rgb(46, 105, 178);
+        border: solid 1px rgb(46, 105, 178);
+        cursor: pointer;
+
+                          &:hover {
+                              background: rgb(255, 255, 255);
+                              color: rgb(54, 121, 203);
+                            }
+      }
+    }
+  }
+
+  hr {
+    height: 0;
+    border: 0.5px solid lightgray;
+    margin: 50px 0px;
+  }
+}

@@ -1,0 +1,108 @@
+.featured {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+  color: white;
+  overflow: hidden;
+  background-image: linear-gradient(90deg, rgba(54, 121, 203, 0.8) 0%, rgba(241, 61, 139, 0.8) 50%, rgba(254, 138, 103, 0.8) 100%,rgba(37, 187, 34, 0)), url(https://source.unsplash.com/VWcPlbHglYc);
+  // background-size: 1400px;
+  // https://source.unsplash.com/VWcPlbHglYc https://unsplash.com/photos/fDsCIIGdw9g https://bit.ly/2rlzaXi
+  .container {
+    width: 1400px;
+    display: flex;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      h1 {
+        font-size: 50px;
+
+        span {
+          font-style: italic;
+          font-weight: 300;
+        }
+      }
+
+
+
+      .search {
+        background-color: white;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .searchInput {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          img {
+            width: 20px;
+            height: 20px;
+            margin: 10px;
+          }
+
+          input {
+            border: none;
+            outline: none;
+            width: 600px;
+
+            &::placeholder {
+              color: gray;
+            }
+          }
+        }
+
+        button {
+          width: 120px;
+          height: 50px;
+          border: none;
+          background-color: rgb(54, 121, 203);
+          // background-color: rgba(254, 139, 103, 1) 100%;
+          color: rgb(255, 255, 255);
+          align-self: flex-end;
+          cursor: pointer;
+
+          &:hover {
+              background: rgb(238, 233, 233);
+              color: rgb(54, 121, 203);
+            }
+        }
+      }
+
+      .popular {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        span {
+          width: max-content;
+        }
+
+        button {
+          width: max-content;
+          // color: white;
+          border: 1px solid white;
+          padding: 5px 5px;
+          border-radius: 20px;
+          // background-color: transparent;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .right {
+      height: 100%;
+      img {
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+}
